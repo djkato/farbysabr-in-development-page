@@ -1,0 +1,51 @@
+html {
+        font-family: "Poppins";
+    }
+
+    body {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-image: url("../svg/bg-color.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: min(7vw, 5vh);
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 7vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer h2 {
+        padding: 1vh 2vh;
+        font-size: min(2vw, 2vh);
+        background-color: green;
+        border-radius: 100000000px;
+        color: white;
+    }
+
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper img {
+        height: min(min(15vw, 10vh), 65px);
+    }
